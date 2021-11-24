@@ -21,7 +21,7 @@ func main() {
 			http.Error(w, "the requested http method is not allowed", http.StatusMethodNotAllowed)
 		}
 		// Response body
-		text := "hello world!"
+		text := "hello world! v1"
 		if instanceID != "" {
 			text = text + ". from " + instanceID
 		}
