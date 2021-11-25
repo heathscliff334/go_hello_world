@@ -2,12 +2,10 @@
 How to run
 <br>
 Windows:
-<prep>set PORT:....
-<br>
+<pre>set PORT:....
 set INSTANCE_ID = "instance id"
-<br>
 go run main.go
-</prep>
+</pre>
 <br>
 Linux:
-<prep>PORT=.... INSTANCE_ID="instance id" go run main.go </prep>
+<pre>PORT=.... INSTANCE_ID="instance id" go run main.go </pre>
